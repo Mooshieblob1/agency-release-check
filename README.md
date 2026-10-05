@@ -1,5 +1,7 @@
 # Agency release-check — local prototype
 
+> **Build in progress.** Implemented so far: synthetic fixture (`src/fixture.ts`), config validation with fail-closed real mode (`src/config.ts`), and the evidence/review store (`src/store.ts`), checked by `npm run check` and `npm run test:unit`. The rest of this README describes the target and will be rewritten to match what is actually built and run.
+
 A$0 independent prototype. TypeScript capture CLI, Playwright Test acceptance suite, one Vue/Vite operator review interface, versioned JSON manifests/review revisions and an offline HTML handover. No AI runtime/API, database or hosted service.
 
 **Works locally against the synthetic fixture. Real-site capture is disabled.** No client or prospect site was tested. This repository contains synthetic evidence only. No outreach, purchases or commercial commitments were made. The sample decisions are explicitly illustrative agent decisions, not a human review.

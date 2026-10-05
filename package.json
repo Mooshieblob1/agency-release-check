@@ -1,0 +1,21 @@
+{
+  "name": "agency-release-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local prototype for agency website release checks against a synthetic fixture.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "fixture": "node --import tsx src/fixture.ts",
+    "test:unit": "node --import tsx --test \"test/unit/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}
