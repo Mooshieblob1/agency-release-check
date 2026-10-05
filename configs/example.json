@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "name": "Synthetic fixture release check",
+  "mode": "fixture",
+  "origin": "http://127.0.0.1:4317",
+  "pages": [
+    { "id": "home", "path": "/", "masks": ["[data-volatile]"] },
+    { "id": "services", "path": "/services", "masks": ["[data-volatile]"] },
+    { "id": "about", "path": "/about", "masks": ["[data-volatile]"] },
+    { "id": "pricing", "path": "/pricing", "masks": ["[data-volatile]"] },
+    { "id": "contact", "path": "/contact", "masks": ["[data-volatile]"] },
+    { "id": "legacy-services", "path": "/old-services", "masks": ["[data-volatile]"] }
+  ],
+  "profiles": [
+    { "id": "desktop", "width": 1280, "height": 800, "deviceScaleFactor": 1, "isMobile": false },
+    { "id": "mobile", "width": 390, "height": 844, "deviceScaleFactor": 2, "isMobile": true }
+  ],
+  "diffThreshold": 0.001,
+  "pixelThreshold": 0.1,
+  "stabilityFrames": 2,
+  "stabilityIntervalMs": 250,
+  "navigationTimeoutMs": 15000,
+  "maxRedirects": 2,
+  "maxScreenshotBytes": 5000000,
+  "maxRunBytes": 100000000,
+  "maxObservationsPerItem": 50
+}

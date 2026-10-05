@@ -1,0 +1,12 @@
+node_modules/
+.browser/
+test-results/
+*.lock
+# Local evidence stays out of git; only the demo sample runs are committed.
+artifacts/*
+!artifacts/runs/
+!artifacts/reviews/
+artifacts/runs/*
+artifacts/reviews/*
+!artifacts/runs/demo-release-*/
+!artifacts/reviews/demo-release-*/
